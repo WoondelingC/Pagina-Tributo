@@ -1,0 +1,218 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#main {
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #eee;
+}
+#title {
+    font-size: 45px;
+    text-align: center;
+}
+
+#p-title{
+    text-align: center;
+}
+
+#img-div , #img-caption
+{
+    text-align: center;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#img-div #image{
+    width: 1030px;
+    height: 540px;
+    border-radius: 10px;
+}
+
+#tribute-info {
+    text-align: center;
+    font-weight: bold;
+    margin: 35px 0;
+    font-size: 20px;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+ blockquote p{
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+
+#cite{
+    margin-left: 46%;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+#boton{ 
+    background-color:rgba(132, 189, 199, 0.651);     
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+#boton a{
+    color:red;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+} 
+#boton:hover{
+    background-color: rgba(230, 230, 17, 0.596);
+}
+
+/*index2*/
+#pagina2{
+    background: url(/imagenes/fondo.jpg) no-repeat transparent;
+    background-size: 100%;
+    padding: 10px;
+}.container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.batallas{
+    font-size: 18px;
+    text-align: center;
+    padding: 30px;
+    text-align: justify;
+}
+.batallas p{
+    color:rgb(0, 0, 0);
+    background-color: rgba(134, 136, 38, 0.651);
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.titulo{
+    text-align: center;
+    color:rgb(129, 33, 33);
+}
+#image{
+    contain: content;
+}
+#image img{
+    width: 90%;
+    border-radius: 10%;
+    margin-left: 1.5%;
+    padding: 10px;
+}
+.inf{
+    line-height: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+   
+    body{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+    }
+    #main {
+        margin-left: 11.5px;
+        width: 85%
+    }
+    #pagina2{
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+        
+    }
+    .titulo{
+        font-size: 22px;
+    }
+    #img-div #image {
+        width: 100%;
+        height: 260px;
+
+    }
+    ul {
+    max-width: 350px;
+    padding: 10px;
+    }
+    .batallas{
+        font-size: 16px;
+        padding: 0px 15px;
+    }
+    .inf {
+        margin: 0;
+        font-size: 15px;
+        line-height: 28px;
+        text-align: center;
+    }
+    #image{
+
+        display: block;
+        width: 100%;
+    }
+    .b{
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+    #tribute-link{
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+        display: block;
+
+    }
+    #link{
+        margin-top: 25px;
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 20%;
+    }
+    
+}
+
+@media screen and (min-width: 640px) and (max-width: 1280px){
+
+    body{
+        margin: 0%;
+        padding: 0%;
+        position: absolute;
+    }
+    #img-div #image {
+        width: 100%;
+        height: 20%;
+        border-radius: 10px;
+    }
+    title {
+        font-size: 30px;
+        text-align: center;
+    }
+    ul {
+        max-width: 100%;
+        margin: 0px auto 50px -3%;
+        text-align: justify;
+        line-height: 1.6;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1280px){
+
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+}
